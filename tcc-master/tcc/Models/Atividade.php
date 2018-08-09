@@ -80,4 +80,19 @@ class Atividade
     {
         $this->id_disciplina = $id_disciplina;
     }
+
+
+
+
+    function inserirAtividade(){
+        $sql = "INSERT INTO atividade
+                
+
+
+
+mauricimendes.14@gmail.com
+
+";
+    }
+
 }
