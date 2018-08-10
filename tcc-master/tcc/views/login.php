@@ -14,8 +14,7 @@
       <input type="text" class="form-control inputLogin" name="usuario" placeholder="Usuario" style="width: 200px"> <br><br>
 
 
-
-  <div id="senha">
+</div>  <div id="senha">
 
         <input class="form-control inputLogin" type="password" name="senha" placeholder="Senha" style="width: 200px"> <br><br>
 
@@ -30,7 +29,7 @@
   <div id="cadastro">
 
         Não possui uma conta?
-        <a href="?acao=cadastrar">Cadastre-se</a> <br><br>
+      <a href="?acao=cadastrar">Cadastre-se</a> <br><br>
         
 
 
