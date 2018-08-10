@@ -39,4 +39,28 @@ class CrudAtividade
         $sql = "SELECT * FROM  atividade";
 
     }
+
+    public function carregaAtividade() {
+        $sql = "SELECT * FROM  atividade";
+    }
+
+    public function insereAtividade(){
+        $sql = "INSERT INTO atividade
+                (  
+                  id_atividade
+                 ,descricao   
+                 ,data_cadastro   
+                 ,data_previsao   
+                 ,id_turma   
+                 ,id_disciplina   
+                ) VALUES ";
+        
+        $sql .= " ('".$this->id_atividade."' 
+                  '".$this->descricao."'  
+                  '".$this->data_cadastro."'  
+                  '".$this->data_previsao."'  
+                  '".$this->id_turma."'  
+                  '".$this->id_disciplina."' )";
+
+    }
 }

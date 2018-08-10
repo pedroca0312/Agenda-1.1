@@ -12,13 +12,11 @@ class Atividade
     public function __construct($id_atividade,$descricao,$data_cadastro,$data_previsao,$id_turma,$id_disciplina)
     {
         $this->id_atividade = $id_atividade;
-        $this->descricao= $descricao;
+        $this->descricao = $descricao;
         $this->data_cadastro = $data_cadastro;
         $this->data_previsao = $data_previsao;
-        $this->id_turma= $id_turma;
-        $this->id_disciplina= $id_disciplina;
-    
-
+        $this->id_turma = $id_turma;
+        $this->id_disciplina = $id_disciplina;
     }
    
     public function getIdAtividade()
@@ -79,20 +77,6 @@ class Atividade
     public function setIdDisciplina($id_disciplina)
     {
         $this->id_disciplina = $id_disciplina;
-    }
-
-
-
-
-    function inserirAtividade(){
-        $sql = "INSERT INTO atividade
-                
-
-
-
-mauricimendes.14@gmail.com
-
-";
     }
 
 }
