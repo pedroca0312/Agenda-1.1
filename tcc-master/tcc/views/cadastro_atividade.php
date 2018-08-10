@@ -1,35 +1,50 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../bootstrap-4.1.0-dist/css/bootstrap-grid.min.css">
     <script type="text/javascript" src="../bootstrap-4.1.0-dist/js/bootstrap.bundle.min.js"></script>
 
     <style type="text/css">@import url(../css/style_cadastro_atividade.css); </style>
-
+    <style>
+        h1{color:white}
+    </style>
 </head>
 <body>
 <form action="?acao=verifica" method="post">
-    Cadastro de atividade
+
+    <h1>Cadastro de atividade</h1>
+
+
   <div id="nome_atividade">
 
       <input type="text" class="form-control inputLogin" name="nome_atividade" placeholder="Nome da Atividade" style="width: 200px"> <br><br>
 
-
+  </div>
 
   <div id="data">
 
-        <input class="form-control inputLogin" type="date" name="data" placeholder="Senha" style="width: 200px"> <br><br>
+      <input class="form-control inputLogin" type="date" name="data" placeholder="Senha" style="width: 200px"> <br><br>
 
 
-      <div id="disciplina">
+
+    <div id="disciplina">
 
           <input name="disciplina" type="text" class="form-control inputLogin" placeholder="Disciplina" style="width: 200px"> <br> <br>
+
+
+
+    <div id="descricao">
+
+              <textarea name="descricao" type="text" class="form-control inputLogin" placeholder="Descrição" style="width: 200px" ></textarea> <br> <br>
 
 
 
   <div id="cadastrar_atividade">
 
         <button name="cadastrar_atividade" type="submit" class="btn btn-primary btn-lg">Cadastrar atividade</button> <br> <br>
+
+
+
 
 
 
