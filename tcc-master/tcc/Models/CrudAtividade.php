@@ -1,7 +1,7 @@
 <?php
 
-require_once 'BDConection.php';
-require_once "Atividade.php";
+require_once __DIR__."/BDConection.php";
+require_once __DIR__."/Atividade.php";
 
 class CrudAtividade
 {
@@ -32,7 +32,7 @@ class CrudAtividade
         $at[] = $atividade->getDescricao();
         $at[] = $atividade->getDataPrevisao();
 
-    $sql = "insert into table atividade (descricao,data_previsao) values '".$at[0]."','".$at[1]."'";
+    $sql = "insert into atividade (descricao,data_previsao) values ('".$at[0]."','".$at[1]."')";
 
         $res = $this->conexao->query($sql);
     }

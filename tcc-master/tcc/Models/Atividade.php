@@ -9,14 +9,14 @@ class Atividade
     public $id_turma;
     public $id_disciplina;
 
-    public function __construct($id_atividade,$descricao,$data_cadastro,$data_previsao,$id_turma,$id_disciplina)
+    public function __construct($descricao,$data_previsao)
     {
-        $this->id_atividade = $id_atividade;
+       // $this->id_atividade = $id_atividade;
         $this->descricao = $descricao;
-        $this->data_cadastro = $data_cadastro;
+      //  $this->data_cadastro = $data_cadastro;
         $this->data_previsao = $data_previsao;
-        $this->id_turma = $id_turma;
-        $this->id_disciplina = $id_disciplina;
+     //   $this->id_turma = $id_turma;
+       // $this->id_disciplina = $id_disciplina;
     }
    
     public function getIdAtividade()

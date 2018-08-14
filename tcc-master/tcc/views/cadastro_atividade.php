@@ -15,33 +15,23 @@
     <h1>Cadastro de atividade</h1>
 
 
-  <div id="nome_atividade">
+  <div id="cescricao">
 
-      <input type="text" class="form-control inputLogin" name="nome_atividade" placeholder="Nome da Atividade" style="width: 200px"> <br><br>
+      <input type="text" class="form-control inputLogin" name="descricao" placeholder="Nome da Atividade" style="width: 200px"> <br><br>
 
   </div>
 
-  <div id="data">
+  <div id="data_previsao">
 
-      <input class="form-control inputLogin" type="date" name="data" placeholder="Senha" style="width: 200px"> <br><br>
-
-
-
-    <div id="disciplina">
-
-          <input name="disciplina" type="text" class="form-control inputLogin" placeholder="Disciplina" style="width: 200px"> <br> <br>
+      <input class="form-control inputLogin" type="date" name="data_previsao" style="width: 200px"> <br><br>
 
 
-
-    <div id="descricao">
-
-              <textarea name="descricao" type="text" class="form-control inputLogin" placeholder="Descrição" style="width: 200px" ></textarea> <br> <br>
+</div>
 
 
+  <div id="botao">
 
-  <div id="cadastrar_atividade">
-
-        <button name="cadastrar_atividade" type="submit" class="btn btn-primary btn-lg">Cadastrar atividade</button> <br> <br>
+        <button name="botao" type="submit" class="btn btn-primary btn-lg">Cadastrar atividade</button> <br> <br>
 
 
 

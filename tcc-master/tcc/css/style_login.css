@@ -1,30 +1,15 @@
-body{
-       background-color: #383f52;
-     }
-
-      .btn-primary:hover {
-        background-color: #008A8C;
-        border-color: #008A8C; 
-       
-      }
-
-      .btn-primary{
-        background-color: #00A1A3;
-        border-color: #00A1A3;
+ .btn-primary{
         width: 200px;
-
-
       }
-      
-
-      .btn-primary:focus {
-        background-color: #008A8C;
-
-      }
-
+        #suprema{
+            border: solid;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 15%
+        }
 
        #usuario{
-            
+
             padding-top: 20%;
             margin-left: auto;
             margin-right: auto;
@@ -51,13 +36,20 @@ body{
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        background-color: aqua;
+
 
     }
       #cadastro{
-        color: white;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+
       }
 
       .inputLogin{
           display: inline;
+      }
+
+      .form-control{
+          border-color: black;
       }

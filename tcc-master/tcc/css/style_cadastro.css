@@ -1,23 +1,9 @@
-	body{
-		background-color: #383f52;
-	}
-
-	.btn-primary:hover {
-        background-color: #008A8C;
-        border-color: #008A8C; 
-      
- 	}
-
 	.btn-primary{
-
-        background-color: #00A1A3;
-        border-color: #00A1A3;
         width: 200px;
-
  	}
 
  	#nome{
- 		padding-top: 20%;
+ 		padding-top: 16%;
  		text-align:center;
  		margin-right: auto;
  		margin-left: auto;
@@ -60,4 +46,8 @@
  	}
 	.inputLogin{
 		display: inline;
+	}
+
+	.form-control{
+		border-color: black;
 	}
