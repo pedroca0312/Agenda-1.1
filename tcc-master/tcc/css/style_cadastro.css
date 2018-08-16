@@ -3,7 +3,7 @@
  	}
 
  	#nome{
- 		padding-top: 16%;
+ 		margin-top: 2%;
  		text-align:center;
  		margin-right: auto;
  		margin-left: auto;
@@ -50,4 +50,10 @@
 
 	.form-control{
 		border-color: black;
+	}
+
+	h1 {
+		color: black;
+		text-align: center;
+		margin-top: 14%;
 	}

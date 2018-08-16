@@ -5,9 +5,7 @@
     <script type="text/javascript" src="../bootstrap-4.1.0-dist/js/bootstrap.bundle.min.js"></script>
 
     <style type="text/css">@import url(../css/style_cadastro_atividade.css); </style>
-    <style>
-        h1{color:white}
-    </style>
+
 </head>
 <body>
 <form action="?acao=verifica" method="post">
@@ -15,7 +13,7 @@
     <h1>Cadastro de atividade</h1>
 
 
-  <div id="cescricao">
+  <div id="descricao">
 
       <input type="text" class="form-control inputLogin" name="descricao" placeholder="Nome da Atividade" style="width: 200px"> <br><br>
 

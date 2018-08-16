@@ -9,6 +9,9 @@
 </head>
 <body>
 <form action="?acao=cadastrar" method="post">
+
+    <h1>Cadestre-se</h1>
+
 	<div id="nome">
 		
 		<input class="form-control inputLogin" type="text" name="nome" placeholder="Nome Completo" style="width: 200px"> <br> <br>

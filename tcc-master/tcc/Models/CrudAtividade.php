@@ -20,7 +20,7 @@ class CrudAtividade
 
         $atividade= $res->fetch(PDO::FETCH_ASSOC);
 
-        $at[] = new Atividade($atividade['id_atividade'],$atividade['descricao'],$atividade['data_cadastro'],$atividade['data_previsao'],$atividade['id_turma'],$atividade['id_disciplina']);
+        $at[] = new Atividade($atividade['descricao'],$atividade['data_previsao']);
 
         return $at;
 
