@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<form action="?acao=verifica" method="post">
+<form action="?acao=cadastrar" method="post">
 
     <h1>Cadastro de atividade</h1>
 
@@ -21,7 +21,7 @@
 
   <div id="data_previsao">
 
-      <input class="form-control inputLogin" type="date" name="data_previsao" style="width: 200px"> <br><br>
+      <input type="date" class="form-control inputLogin" name="data_previsao" style="width: 200px"><br><br>
 
 
 </div>
@@ -31,7 +31,7 @@
 
         <button name="botao" type="submit" class="btn btn-primary btn-lg">Cadastrar atividade</button> <br> <br>
 
-
+  </div>
 
 
 
