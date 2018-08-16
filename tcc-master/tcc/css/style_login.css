@@ -4,34 +4,34 @@
        #usuario{
             margin-top: 2%;
             margin-left: auto;
-            margin-right: auto;
+            margin-right: 50%;
             text-align: center;
       }
 
        #senha{
-          border-radius: .25rem;
+           border-radius: .25rem;
            margin-left: auto;
-           margin-right: auto;
+           margin-right: 50%;
            text-align: center;
      }
 
        #entrar{
 
            margin-left: auto;
-           margin-right: auto;
+           margin-right: 50%;
            text-align: center;
       }
 
     #esqueceu_senha {
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 50%;
         text-align: center;
 
 
     }
       #cadastro{
           margin-left: auto;
-          margin-right: auto;
+          margin-right: 50%;
           text-align: center;
 
       }
@@ -46,6 +46,17 @@
 
  h1{
      color:black;
-     text-align: center;
-     margin-top: 18%;
+     margin-left: 22%;
+     margin-top: 15%;
  }
+
+ h2{
+     color: black;
+     margin-left: 800px;
+
+ }
+
+ #titulo{
+     position: absolute;
+ }
+
