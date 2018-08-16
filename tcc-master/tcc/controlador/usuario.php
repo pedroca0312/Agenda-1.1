@@ -20,11 +20,14 @@ switch ($acao) {
                 }
             }
         } else {
+
             include '../views/login.php';
 
         }
         break;
+
     case 'cadastrar':
+    
         $crud = new CrudLogin();
 
         if (isset($_GET)){

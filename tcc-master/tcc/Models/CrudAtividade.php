@@ -43,7 +43,7 @@ class CrudAtividade
 
         $at[] = $atividade->getIdAtividade();
 
-        $sql = "delete * from atividade where id_atividade=".$at[0];
+        $sql = "delete from atividade where id_atividade=".$at[0];
 
         $res = $this->conexao->query($sql);
     }

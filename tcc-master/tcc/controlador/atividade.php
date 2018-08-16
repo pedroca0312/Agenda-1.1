@@ -2,11 +2,13 @@
 
     require_once __DIR__."/../Models/CrudAtividade.php";
 
-    if(isset($_GET['acao'])){
-        $acao=$_GET['acao'];
+  /*  if(isset($_GET['acao'])){
+      
     }else{
         $acao='cadastrar';
     }
+*/
+    $acao=$_GET['acao'];
 
     switch ($acao) {
 
@@ -15,7 +17,7 @@
             $crud = new CrudAtividade();
 
             if (isset($_POST['botao'])) {
-            $atividade = new Atividade($_POST['descricao'], $_POST['data_previsao']);
+            $atividade = new Atividade(null,$_POST['descricao'], $_POST['data_previsao']);
             $crud->cadastroAgenda($atividade);
 
             header('Location: ../fullcalendar-3.9.0/index.php');
@@ -30,10 +32,12 @@
         $crud = new CrudAtividade();
 
         if (isset($_POST['deleta'])){
-            $atividade = new Atividade($_POST['id_atividade']);
+            $atividade = new Atividade($_POST['id_atividade'],null,null);
             $crud->deletaAtividade($atividade);
 
             header('Location: ../fullcalendar-3.9.0/index.php');
+        }else{
+            include '../views/deletar.php';
         }
 }
 

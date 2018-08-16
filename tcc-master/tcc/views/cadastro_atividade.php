@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<form action="?acao=cadastrar" method="post">
+<form action="" method="post">
 
     <h1>Cadastro de atividade</h1>
 

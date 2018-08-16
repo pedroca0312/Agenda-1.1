@@ -76,14 +76,14 @@
 <body>
     <div id='calendario'></div>
     
-
-
-
         <div id=CadastrarAtividade>
-            <a href="../controlador/atividade.php"><button name="Cadastrar" type="submit" class="btn btn-primary btn-lg">Cadastrar Atividade</button></a>
+            <a href="../controlador/atividade.php?acao=cadastrar"><button name="Cadastrar" type="submit" class="btn btn-primary btn-lg">Cadastrar Atividade</button></a>
+            <br> <br>
+        </div><div id=CadastrarAtividade>
+            <a href="../controlador/atividade.php?acao=deletar"><button name="Deletar" type="submit" class="btn btn-primary btn-lg">Deletar Atividade</button></a>
             <br> <br>
         </div>
-
+     
 </body>
 </html>
 
