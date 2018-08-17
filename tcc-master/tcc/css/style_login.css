@@ -47,16 +47,25 @@
  h1{
      color:black;
      margin-left: 22%;
-     margin-top: 15%;
+     margin-top: 18%;
  }
 
  h2{
-     color: black;
+     color: #0056b3;
      margin-left: 800px;
-
+     padding-top: 20%;
  }
 
  #titulo{
      position: absolute;
+ }
+
+ h3{
+     color: black;
+     margin-left: 800px;
+ }
+
+ img{
+
  }
 
