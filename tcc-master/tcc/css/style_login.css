@@ -1,71 +1,102 @@
  .btn-primary {
-     width: 200px;
+     width: 250px;
+     height: 50px;
  }
-       #usuario{
-            margin-top: 2%;
-            margin-left: auto;
-            margin-right: 50%;
-            text-align: center;
-      }
 
-       #senha{
-           border-radius: .25rem;
-           margin-left: auto;
-           margin-right: 50%;
-           text-align: center;
-     }
+ .form-control{
+     height: 50px;
+     width: 250px;
+ }
+       /*#usuario{*/
+            /*margin-top: 2%;*/
+            /*margin-left: 2%;*/
+            /*margin-right: 50%;*/
+            /*text-align: center;*/
+      /*}*/
 
-       #entrar{
+       /*#senha{*/
+           /*border-radius: .25rem;*/
+           /*margin-left: auto;*/
+           /*margin-right: 50%;*/
+           /*text-align: center;*/
+     /*}*/
 
-           margin-left: auto;
-           margin-right: 50%;
-           text-align: center;
-      }
+       /*#entrar{*/
 
-    #esqueceu_senha {
-        margin-left: auto;
-        margin-right: 50%;
-        text-align: center;
+           /*margin-left: auto;*/
+           /*margin-right: 50%;*/
+           /*text-align: center;*/
+      /*}*/
+
+    /*#esqueceu_senha {*/
+        /*margin-left: auto;*/
+        /*margin-right: 50%;*/
+        /*text-align: center;*/
 
 
-    }
-      #cadastro{
-          margin-left: auto;
-          margin-right: 50%;
-          text-align: center;
+    /*}*/
+      /*#cadastro{*/
+          /*margin-left: auto;*/
+          /*margin-right: 50%;*/
+          /*text-align: center;*/
 
-      }
+      /*}*/
 
-      .inputLogin{
-          display: inline;
-      }
+      /*.inputLogin{*/
+          /*display: inline;*/
+      /*}*/
 
-      .form-control{
-          border-color: black;
+      /*.form-control{*/
+          /*border-color: black;*/
+      /*}*/
+
+      .suprema{
+          margin-left: 40%;
+          margin-right: 35%;
+          margin-top: 1%;
       }
 
  h1{
-     color:black;
-     margin-left: 22%;
-     margin-top: 18%;
+     text-align: center;
+     font-size: 60px;
  }
 
- h2{
-     color: #0056b3;
-     margin-left: 800px;
-     padding-top: 20%;
+ #cadastro {
+     text-align: center;
  }
 
- #titulo{
-     position: absolute;
+ #esqueceu_senha{
+     text-align: center;
  }
 
- h3{
-     color: black;
-     margin-left: 800px;
+ .formularios{
+     margin-left: 20%;
+
+
  }
+     /*color:black;*/
+     /*margin-left: 22%;*/
+     /*margin-top: 18%;*/
+ /*}*/
+
+ /*h2{*/
+     /*color: #0056b3;*/
+     /*margin-left: 800px;*/
+     /*padding-top: 20%;*/
+ /*}*/
+
+ /*#titulo{*/
+     /*position: absolute;*/
+ /*}*/
+
+ /*h3{*/
+     /*color: black;*/
+     /*margin-left: 800px;*/
+ /*}*/
 
  img{
-
+     margin-left: 12%;
+     margin-bottom: 20%;
+     margin-top: 20%;
  }
 
