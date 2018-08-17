@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__."/../Models/Atividade.php";
+
 
     /*
         fazer a lista
@@ -16,12 +16,29 @@
 
 <html>
     <body>
-        <form action="" method="post">
+    <table>
+        <thead>
+        <tr>
+            <th scope="col">Atividade</th>
+        </tr>
 
-            <input type="text" name="descricao" value="<?php $atividade->getDescricao(); ?>">
+        </thead>
+
+        <tr>
+            <?php foreach ($atividades as $atividade): ?>
+
+                <?php foreach ($atividades as $atividade): ?>
+            <th><?= $atividade->getDescricao();?> <button id="<?= $atividade->getIdAtividade();?>">editar</button>
+                <br></th>
+
+                <?php endforeach;?>
+
+            <?php endforeach;?>
 
 
-        </form>
+
+        </tr>
+    </table>
 
     </body>
 </html>

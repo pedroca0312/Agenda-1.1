@@ -41,7 +41,7 @@
         }
         break;
 
-        case 'editar':
+        case 'lista':
 
             $crud = new CrudAtividade();
 
@@ -51,6 +51,9 @@
                 $crud->editaAtvidade($atividade);
 
                 header('Location: ../fullcalendar-3.9.0/index.php');
+            }else{
+                $atividades = $crud->GetAtividades();
+                include '../views/lista_atividades.php';
             }
 
     }

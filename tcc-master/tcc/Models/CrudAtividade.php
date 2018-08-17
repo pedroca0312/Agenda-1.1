@@ -8,7 +8,7 @@ class CrudAtividade
     public $conexao;
 
 
-    public function GetAtividade(){
+    public function GetAtividades(){
 
         $this->conexao = BDConection::getConexao();
 
@@ -18,10 +18,12 @@ class CrudAtividade
 
         $at = [];
 
-        $atividade= $res->fetch(PDO::FETCH_ASSOC);
+        $atividades= $res->fetchAll(PDO::FETCH_ASSOC);
 
-        $at[] = new Atividade($atividade['descricao'],$atividade['data_previsao']);
 
+        foreach ($atividades as $atividade) {
+            $at[] = new Atividade(null,$atividade['descricao'], $atividade['data_previsao']);
+        }
         return $at;
 
     }
