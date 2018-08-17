@@ -4,7 +4,6 @@ class Atividade
 {
     public $id_atividade;
     public $descricao;
-    public $data_cadastro;
     public $data_previsao;
     public $id_turma;
     public $id_disciplina;
@@ -13,10 +12,9 @@ class Atividade
     {
         $this->id_atividade = $id_atividade;
         $this->descricao = $descricao;
-      //  $this->data_cadastro = $data_cadastro;
         $this->data_previsao = $data_previsao;
-     //   $this->id_turma = $id_turma;
-       // $this->id_disciplina = $id_disciplina;
+        // $this->id_turma = $id_turma;
+        // $this->id_disciplina = $id_disciplina;
     }
    
     public function getIdAtividade()
