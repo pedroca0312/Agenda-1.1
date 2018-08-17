@@ -10,36 +10,40 @@
 <body>
 <form action="?acao=verifica" method="post">
 
-<div id="titulo">
-    <h2><font face="Helvetica"> Plataforma de organização do estudante</font></h2> <br> <br>
-    <h3>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>
+<!--<div id="titulo">-->
+<!--    <h2><font face="Helvetica"> Plataforma de organização do estudante</font></h2> <br> <br>-->
+<!--    <h3>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<!--    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<!--    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<!--    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+<!--    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>-->
+<!---->
+<!--</div>-->
 
-</div>
-    <img width="500px" height="300px" src="../../imagens/logo-1.png">
-    <h1>Login</h1>
-    <div id="suprema">
+    <div class="suprema">
+        <img width="250px" height="200px" src="../../imagens/logo-1.png">
 
+
+        <h1>Login</h1> <br>
+
+        <div class="formularios">
   <div id="usuario">
 
-      <input type="text" class="form-control inputLogin" name="usuario" placeholder="Usuario" style="width: 200px"> <br><br>
+      <input type="text" class="form-control inputLogin" name="usuario" placeholder="Usuario"> <br>
   </div>
 
   <div id="senha">
 
-        <input class="form-control inputLogin" type="password" name="senha" placeholder="Senha" style="width: 200px"> <br><br>
+        <input class="form-control inputLogin" type="password" name="senha" placeholder="Senha"> <br>
 
   </div>
 
   <div id="entrar">
    
-        <button name="gravar" type="submit" class="btn btn-primary btn-lg">Entrar</button> <br> <br>
+        <button name="gravar" type="submit" class="btn btn-primary btn-lg" >Entrar</button> <br> <br>
 
   </div>
-
+    </div>
   <div id="cadastro">
 
 
@@ -52,7 +56,6 @@
       <a href="..">Esqueceu sua senha?</a>
 
   </div>
-
 
 
     </div>
