@@ -9,12 +9,17 @@
 </head>
 <body>
 <form action="?acao=verifica" method="post">
-<div id="titulo">
 
-    <h2>Plataforma de organização do estudante</h2>
+<div id="titulo">
+    <h2><font face="Helvetica"> Plataforma de organização do estudante</font></h2> <br> <br>
+    <h3>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h3>
 
 </div>
-
+    <img width="500px" height="300px" src="../../imagens/logo-1.png">
     <h1>Login</h1>
     <div id="suprema">
 
