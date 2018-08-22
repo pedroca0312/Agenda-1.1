@@ -1,13 +1,27 @@
  .btn-primary {
-     width: 250px;
+     width: 400px;
      height: 50px;
  }
 
  .form-control{
+     width: 400px;
      height: 50px;
-     width: 250px;
+
  }
+
+ body{
+    background-image: url("../../imagens/calendario.png");
+    background-size: 100%;
+   
+ }
+
+ /*.background-image{*/
+     /*filter: blur(2);*/
+ /*}*/
+
+
        /*#usuario{*/
+           /*float: center;*/
             /*margin-top: 2%;*/
             /*margin-left: 2%;*/
             /*margin-right: 50%;*/
@@ -51,52 +65,76 @@
       /*}*/
 
       .suprema{
-          margin-left: 40%;
-          margin-right: 35%;
-          margin-top: 1%;
+          margin-left: 6%;
+          margin-right: 45%;
+          margin-top: 4%;
       }
 
  h1{
-     text-align: center;
+     /*text-align: center;*/
      font-size: 60px;
+     margin-left: 23%;
  }
 
  #cadastro {
-     text-align: center;
+     margin-left: 28%;
+     font-size: 20px;
  }
 
  #esqueceu_senha{
-     text-align: center;
- }
-
- .formularios{
      margin-left: 20%;
-
-
+     font-size: 20px;
  }
+
+
+
+ /*}*/
      /*color:black;*/
      /*margin-left: 22%;*/
      /*margin-top: 18%;*/
  /*}*/
 
- /*h2{*/
+ h2{
      /*color: #0056b3;*/
      /*margin-left: 800px;*/
      /*padding-top: 20%;*/
- /*}*/
+     font-size: 45px;
+ }
 
  /*#titulo{*/
      /*position: absolute;*/
  /*}*/
 
- /*h3{*/
+ h3{
      /*color: black;*/
      /*margin-left: 800px;*/
- /*}*/
+     font-size: 35px;
+ }
 
  img{
-     margin-left: 12%;
-     margin-bottom: 20%;
+     margin-left: 15%;
+     margin-bottom: 8%;
+     margin-top: 1%;
+     width: 300px;
+     height: 250px;
+
+ }
+
+ #descricao{
+     float: right;
+     margin-right: 1%;
      margin-top: 20%;
+ }
+
+ .box{
+    border: solid;
+    margin-right: 50%;
+    width: 600px;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
  }
 
