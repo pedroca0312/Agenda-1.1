@@ -16,29 +16,23 @@
 
 <html>
     <body>
-    <table>
-        <thead>
-        <tr>
-            <th scope="col">Atividade</th>
-        </tr>
 
-        </thead>
 
-        <tr>
-            <?php foreach ($atividades as $atividade): ?>
 
                 <?php foreach ($atividades as $atividade): ?>
-            <th><?= $atividade->getDescricao();?> <button id="<?= $atividade->getIdAtividade();?>">editar</button>
-                <br></th>
 
+
+                <ul>
+                    <li> <p><?= $atividade->getDescricao();?>        <a href="../views/editar.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button id="">editar</button></a></p></li>
+                </ul>
                 <?php endforeach;?>
 
-            <?php endforeach;?>
 
 
 
-        </tr>
-    </table>
+
+
+
 
     </body>
 </html>

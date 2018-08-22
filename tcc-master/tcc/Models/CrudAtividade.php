@@ -28,6 +28,20 @@ class CrudAtividade
 
     }
 
+    public function GetAtividade(Atividade $atividade){
+
+        $this->conexao = BDConection::getConexao();
+
+        $sql = "select id_atividade from atividade where id_atividade=".$atividade->getIdAtividade();
+
+        $res = $this->conexao->query($sql);
+
+        $atividade= $res->fetchAll(PDO::FETCH_ASSOC);
+
+        return $atividade;
+
+    }
+
     public function cadastroAgenda(Atividade $atividade){
         $this->conexao = BDConection::getConexao();
 

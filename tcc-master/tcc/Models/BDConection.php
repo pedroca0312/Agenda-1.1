@@ -5,7 +5,7 @@ class BDConection
     const HOST      = "localhost";
     const NOMEBANCO = "agendinha";
     const USUARIO   = "root";
-    const SENHA     = "root";
+    const SENHA     = "";
 
     public static function getConexao(){
         $conexao = new PDO("mysql:host=".self::HOST.";dbname=".self::NOMEBANCO, self::USUARIO, self::SENHA);
