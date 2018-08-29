@@ -28,7 +28,7 @@
     <?php foreach ($atividades as $atividade): ?>
 
         <ul>
-           <li><?= $atividade->getDescricao();?> &nbsp&nbsp&nbsp<a href="../views/editar.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a></li>
+           <li><?= $atividade->getDescricao();?> <a href="../controlador/atividade.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a></li>
        </ul>
             <?php endforeach;?>
     </div>

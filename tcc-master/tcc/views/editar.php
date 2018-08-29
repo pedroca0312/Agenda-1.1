@@ -1,8 +1,15 @@
-<?php
- require_once "../Models/CrudAtividade.php";
+<html>
+    <body>
+    <form method="post" action="?acao=edita">
 
- $crud = new CrudAtividade();
+        <input type="text" value="<?= $atividade->getDescricao();?>">
+        <br>
+        <input type="text" value="<?= $atividade->getDataPrevisao();?>">
+
+        <input type="submit">
+        
+    </form>
+    </body>
+</html>
 
 
-$atividade = new Atividade(1,null,null);
- var_dump($crud->GetAtividade($atividade));

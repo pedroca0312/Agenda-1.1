@@ -41,19 +41,31 @@
         }
         break;
 
-        case 'lista':
+        case 'listar':
+            $crud= new CrudAtividade();
+
+            $atividades= $crud->GetAtividades();
+            include '../views/lista_atividades.php';
+
+            break;
+
+        case 'editar':
 
             $crud = new CrudAtividade();
 
             if(isset($_POST['edita'])) {
-                $atividade = new Atividade($_POST['id_atividade'], $_POST['descricao'], $_POST['data_previsao']);
+                $atividade = new Atividade(null, $_POST['descricao'], $_POST['data_previsao']);
 
-                $crud->editaAtvidade($atividade);
+                $crud->editaAtividade($atividade);
 
                 header('Location: ../fullcalendar-3.9.0/index.php');
             }else{
-                $atividades = $crud->GetAtividades();
-                include '../views/lista_atividades.php';
+                //$atividades = $crud->GetAtividades();
+
+
+                $atividade = $crud->GetAtividade($_GET['id']);
+
+                include '../views/editar.php';
             }
 
     }

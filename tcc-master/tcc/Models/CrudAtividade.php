@@ -22,23 +22,25 @@ class CrudAtividade
 
 
         foreach ($atividades as $atividade) {
-            $at[] = new Atividade(null,$atividade['descricao'], $atividade['data_previsao']);
+            $at[] = new Atividade($atividade['id_atividade'],$atividade['descricao'], $atividade['data_previsao']);
         }
         return $at;
 
     }
 
-    public function GetAtividade(Atividade $atividade){
+    public function GetAtividade($id){
 
         $this->conexao = BDConection::getConexao();
 
-        $sql = "select id_atividade from atividade where id_atividade=".$atividade->getIdAtividade();
+        $sql = "select * from atividade where id_atividade=".$id;
 
         $res = $this->conexao->query($sql);
 
-        $atividade= $res->fetchAll(PDO::FETCH_ASSOC);
+        $atividade= $res->fetch(PDO::FETCH_ASSOC);
 
-        return $atividade;
+
+        $at = new Atividade($atividade['id_atividade'],$atividade['descricao'], $atividade['data_previsao']);
+        return $at;
 
     }
 

@@ -11,14 +11,16 @@
     <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
     <script src='fullcalendar/lib/jquery.min.js'></script>
     <script src='fullcalendar/lib/moment.min.js'></script>
-
+    <link rel='stylesheet' type="text" href="_javaScript/index.js">
     <script src='fullcalendar/fullcalendar.js'></script>
-
+    
+    <!-- script de tradução -->
     <script src='fullcalendar/locale/pt-br.js'></script>
         
     <script>
        $(document).ready(function() {   
-
+            
+            //CARREGA CALENDÁRIO E EVENTOS DO BANCO
             $('#calendario').fullCalendar({
                 header: {
                     left: 'prev,next today',
@@ -65,30 +67,20 @@
             position: relative;
             width: 70%;
             margin: 0px auto;
-        }
-
-        #CadastrarAtividade{
-
-        }
+        }        
     </style>
     
 </head>
-<body>
+<body>    
     <div id='calendario'></div>
     
-        <div id=CadastrarAtividade>
-            <a href="../controlador/atividade.php?acao=cadastrar"><button name="Cadastrar" type="submit" class="btn btn-primary btn-lg">Cadastrar Atividade</button></a>
-            <br> <br>
-        </div><div id=CadastrarAtividade>
-            <a href="../controlador/atividade.php?acao=deletar"><button name="Deletar" type="submit" class="btn btn-primary btn-lg">Deletar Atividade</button></a>
-            <br> <br>
-        </div>
-    <div id=CadastrarAtividade>
-        <a href="../controlador/atividade.php?acao=listar"><button name="Lista" type="submit" class="btn btn-primary btn-lg">Lista de Atividades</button></a>
-        <br> <br>
-    </div>
 
-     
+
+
+        <div id=CadastrarAtividade>
+            <a href="../controlador/atividade.php"><button name="Cadastrar" type="submit">Cadastrar Atividade</button></a>
+        </div>
+
 </body>
 </html>
 

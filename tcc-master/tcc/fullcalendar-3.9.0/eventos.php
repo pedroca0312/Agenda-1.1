@@ -25,7 +25,6 @@
 
 
 	$listaEventos[] = $evento;
-	var_dump($listaEventos);
 
     echo json_encode($listaEventos);
 
