@@ -1,59 +1,23 @@
 	.btn-primary{
-        width: 200px;
+		width: 400px;
+		height: 50px;
  	}
-
- 	#nome{
- 		margin-top: 2%;
- 		text-align:center;
- 		margin-right: auto;
- 		margin-left: auto;
- 		
- 	}
-
- 	#usuario{
- 		text-align: center;
- 		margin-right: auto;
- 		margin-left: auto;
- 		
- 	}
-
- 	#email{
- 		text-align: center;
- 		margin-right: auto;
- 		margin-left: auto;
- 		
- 	}
-
- 	#senha{
- 		text-align: center;
- 		margin-right: auto;
- 		margin-left: auto;
- 		
- 	}
-
- 	#confirma_senha{
- 		
- 		text-align: center;
- 		margin-right: auto;
- 		margin-left: auto;
- 	}
-
- 	#botao{
- 		text-align: center;
- 		margin-right: auto;
- 		margin-left: auto;
- 		
- 	}
-	.inputLogin{
-		display: inline;
-	}
 
 	.form-control{
-		border-color: black;
+		width: 400px;
+		height: 50px;
 	}
+
+	.tudo{
+		margin-left: 40%;
+		padding-top: 1%;
+	}
+
 
 	h1 {
 		color: black;
 		text-align: center;
-		margin-top: 14%;
+		margin-top: 8%;
+		margin-bottom: 3%;
 	}
+

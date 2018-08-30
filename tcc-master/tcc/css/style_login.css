@@ -15,55 +15,6 @@
    
  }
 
- /*.background-image{*/
-     /*filter: blur(2);*/
- /*}*/
-
-
-       /*#usuario{*/
-           /*float: center;*/
-            /*margin-top: 2%;*/
-            /*margin-left: 2%;*/
-            /*margin-right: 50%;*/
-            /*text-align: center;*/
-      /*}*/
-
-       /*#senha{*/
-           /*border-radius: .25rem;*/
-           /*margin-left: auto;*/
-           /*margin-right: 50%;*/
-           /*text-align: center;*/
-     /*}*/
-
-       /*#entrar{*/
-
-           /*margin-left: auto;*/
-           /*margin-right: 50%;*/
-           /*text-align: center;*/
-      /*}*/
-
-    /*#esqueceu_senha {*/
-        /*margin-left: auto;*/
-        /*margin-right: 50%;*/
-        /*text-align: center;*/
-
-
-    /*}*/
-      /*#cadastro{*/
-          /*margin-left: auto;*/
-          /*margin-right: 50%;*/
-          /*text-align: center;*/
-
-      /*}*/
-
-      /*.inputLogin{*/
-          /*display: inline;*/
-      /*}*/
-
-      /*.form-control{*/
-          /*border-color: black;*/
-      /*}*/
-
       .suprema{
           margin-left: 6%;
           margin-right: 45%;
@@ -71,7 +22,6 @@
       }
 
  h1{
-     /*text-align: center;*/
      font-size: 60px;
      margin-left: 23%;
  }
@@ -86,28 +36,14 @@
      font-size: 20px;
  }
 
-
-
- /*}*/
-     /*color:black;*/
-     /*margin-left: 22%;*/
-     /*margin-top: 18%;*/
- /*}*/
-
  h2{
-     /*color: #0056b3;*/
-     /*margin-left: 800px;*/
-     /*padding-top: 20%;*/
+
      font-size: 45px;
  }
 
- /*#titulo{*/
-     /*position: absolute;*/
- /*}*/
+
 
  h3{
-     /*color: black;*/
-     /*margin-left: 800px;*/
      font-size: 35px;
  }
 

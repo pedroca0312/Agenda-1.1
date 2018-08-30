@@ -1,38 +1,14 @@
 .btn-primary{
-    width: 200px;
-}
-
-#descricao{
-    margin-top: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#data_previsao{
-    border-radius: .25rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#botao{
-    border-radius: .25rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.inputLogin{
-    display: inline;
+    width: 400px;
+    height: 50px;
 }
 
 .form-control{
-    border-color: black;
+    width: 400px;
+    height: 50px;
 }
 
-h1{
-    color:black;
-    text-align: center;
-    margin-top: 18%;
+.tudo{
+    margin-left: 38%;
+    padding-top: 16%;
 }
