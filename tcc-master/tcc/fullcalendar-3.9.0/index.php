@@ -85,6 +85,10 @@
         <br> <br>
     </div>
 
+            <div id=CadastrarAtividade>
+                <a href="../controlador/usuario.php?acao=listar"><button name="ListaUsuario" type="submit" class="btn btn-primary btn-lg">Lista de Usuario</button></a>
+                <br> <br>
+            </div>
      
 </body>
 </html>

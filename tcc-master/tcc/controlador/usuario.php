@@ -1,5 +1,5 @@
 <?php
-require_once '../Models/CrudLogin.php';
+require_once '../Models/CrudUsuario.php';
 require_once '../Models/Usuario.php';
 
 if (isset($_GET['acao'])){
@@ -11,7 +11,7 @@ if (isset($_GET['acao'])){
 switch ($acao) {
     case 'verifica':
 
-        $crud = new CrudLogin();
+        $crud = new CrudUsuario();
         if (isset($_POST['gravar'])) {
             $usuarios = $crud->GetUsuarios();
             foreach ($usuarios as $usuario) {
@@ -28,7 +28,7 @@ switch ($acao) {
 
     case 'cadastrar':
     
-        $crud = new CrudLogin();
+        $crud = new CrudUsuario();
 
         if (isset($_GET)){
             include '../views/cadastro.php';
@@ -43,39 +43,39 @@ switch ($acao) {
         break;
     case 'deletar':
 
-        $crud = new CrudAtividade();
+        $crud = new CrudUsuario();
 
-        $crud->deletaAtividade($_GET['id']);
+        $crud->deletaUsuario($_GET['id']);
 
             header('Location: ../fullcalendar-3.9.0/index.php');
 
         break;
 
     case 'listar':
-        $crud= new CrudAtividade();
+        $crud= new CrudUsuario();
 
-        $atividades= $crud->GetAtividades();
-        include '../views/lista_atividades.php';
+        $usuarios= $crud->GetUsuarios();
+        include '../views/lista_usuarios.php';
 
         break;
 
     case 'editar':
 
-        $crud = new CrudAtividade();
+        $crud = new CrudUsuario();
 
         if(isset($_POST['edita'])) {
-            $atividade = new Atividade($_POST['id_atividade'], $_POST['descricao'], $_POST['data_previsao']);
+            $usuario = new Usuario($_POST['nome'],$_POST['email'],$_POST['senha'],$_POST['id_usuario'],$_POST['username']);
 
-            $crud->editaAtividade($atividade);
+            $crud->editaUsuarios($usuario);
 
-            header('Location: ../fullcalendar-3.9.0/index.php');
+           header('Location: ../fullcalendar-3.9.0/index.php');
         }else{
             //$atividades = $crud->GetAtividades();
 
 
-            $atividade = $crud->GetAtividade($_GET['id']);
+            $usuario = $crud->GetUsuario($_GET['id']);
 
-            include '../views/editar.php';
+            include '../views/editarUsuario.php';
         }
 
 
