@@ -12,41 +12,43 @@
 
     <h1>Cadestre-se</h1>
 
+    <div class="tudo">
 	<div id="nome">
 		
-		<input class="form-control inputLogin" type="text" name="nome" placeholder="Nome Completo" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="text" name="nome" placeholder="Nome Completo" > <br> <br>
 
 	</div>
 
 	<div id="usuario">
 		
-		<input class="form-control inputLogin" type="text" name="usuario" placeholder="Usuario" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="text" name="usuario" placeholder="Usuario" > <br> <br>
 	
 	</div>
 
 	<div id="email">
 		
-		<input class="form-control inputLogin" type="email" name="email" placeholder="Email" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="email" name="email" placeholder="Email" > <br> <br>
 	
 	</div>
 
 	<div id="senha">
 		
-		<input class="form-control inputLogin" type="password" name="senha" placeholder="Senha" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="password" name="senha" placeholder="Senha" > <br> <br>
 	
 	</div>
 
 	<div id="confirma_senha">
 		
-		<input class="form-control inputLogin" type="password" name="confirma_senha" placeholder="Confirmar Senha" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="password" name="confirma_senha" placeholder="Confirmar Senha" > <br> <br>
 	
 	</div>
 
 	<div id="botao">
 		
-		<button name="botao" type="submit" class="btn btn-primary btn-lg" style="width: 200px">Cadastrar</button> <br> <br>
+		<button name="botao" type="submit" class="btn btn-primary btn-lg" >Cadastrar</button> <br> <br>
 
 	</div>
+    </div>
 
 </form>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

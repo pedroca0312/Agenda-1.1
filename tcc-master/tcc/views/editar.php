@@ -9,9 +9,9 @@
     <body>
     <form method="post" action="" class="formularios">
 
-        <input class="form-control inputLogin" name="descricao" type="text" value="<?= $atividade->getDescricao();?>"><br>
+        <input class="form-control inputLogin" name="descricao" type="text" value="<?= $atividade->getDescricao();?>"><br> <br>
 
-        <input class="form-control inputLogin" name="data_previsao" type="text" value="<?= $atividade->getDataPrevisao();?>">
+        <input class="form-control inputLogin" name="data_previsao" type="text" value="<?= $atividade->getDataPrevisao();?>"> <br>
 
         <input class="btn btn-primary btn-lg" name="id_atividade" type="hidden" value="<?= $atividade->getIdAtividade();?>"> <br>
 

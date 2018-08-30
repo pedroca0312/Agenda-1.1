@@ -6,23 +6,23 @@
 
     <style type="text/css">@import url(../css/style_lista_atividade.css); </style>
 </head>
-<body>
-<h1>Lista de Atividades</h1>
-<div class="lista_atividades">
+    <body>
+    <h1>Lista de Atividades</h1>
+    <div class="lista_atividades">
     <?php foreach ($atividades as $atividade): ?>
 
         <ul>
-            <li><?= $atividade->getDescricao();?> <a href="../controlador/atividade.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a>
+           <li><?= $atividade->getDescricao();?> <a href="../controlador/atividade.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a>
 
-                <a href="../controlador/atividade.php?acao=deletar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Deleta</button></a></li>
+             <a href="../controlador/atividade.php?acao=deletar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Excluir</button></a></li>
         </ul>
 
-    <?php endforeach;?>
-</div>
+            <?php endforeach;?>
+    </div>
 
 
 
 
 
-</body>
+    </body>
 </html>
