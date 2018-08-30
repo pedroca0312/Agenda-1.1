@@ -1,13 +1,14 @@
 <html>
     <body>
-    <form method="post" action="?acao=edita">
+    <form method="post" action="">
 
-        <input type="text" value="<?= $atividade->getDescricao();?>">
+        <input name="descricao" type="text" value="<?= $atividade->getDescricao();?>">
         <br>
-        <input type="text" value="<?= $atividade->getDataPrevisao();?>">
+        <input name="data_previsao" type="text" value="<?= $atividade->getDataPrevisao();?>">
+        <input name="id_atividade" type="hidden" value="<?= $atividade->getIdAtividade();?>">
 
-        <input type="submit">
-        
+        <a href="../controlador/atividade.php?acao=editar"><button type="submit" name="edita" class="btn btn-primary btn-lg">Editar</button></a>
+
     </form>
     </body>
 </html>

@@ -54,7 +54,7 @@
             $crud = new CrudAtividade();
 
             if(isset($_POST['edita'])) {
-                $atividade = new Atividade(null, $_POST['descricao'], $_POST['data_previsao']);
+                $atividade = new Atividade($_POST['id_atividade'], $_POST['descricao'], $_POST['data_previsao']);
 
                 $crud->editaAtividade($atividade);
 

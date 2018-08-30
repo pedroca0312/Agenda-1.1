@@ -74,7 +74,7 @@ class CrudAtividade
         $at[] = $atividade->getDescricao();
         $at[] = $atividade->getDataPrevisao();
 
-        $sql = "update atividade set descricao='".$at[1]."',data_previsao='".$at[1]."' where id_atividade='".$at[0]."'";
+        $sql = "update atividade set descricao='".$at[1]."',data_previsao='".$at[2]."' where id_atividade='".$at[0]."'";
 
         $res = $this->conexao->query($sql);
     }
