@@ -1,19 +1,3 @@
-<?php
-
-
-    /*
-        fazer a lista
-
-
-      <ul>
-       <?php foreach ($categorias as $categoria): ?>
-        <li id="<?=$categoria->getId();?>"><?=$categoria->getNome();?></li>
-        <?php endforeach;?>
-    </ul>
-     */
-
-?>
-
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -28,8 +12,11 @@
     <?php foreach ($atividades as $atividade): ?>
 
         <ul>
-           <li><?= $atividade->getDescricao();?> <a href="../controlador/atividade.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a></li>
-       </ul>
+           <li><?= $atividade->getDescricao();?> <a href="../controlador/atividade.php?acao=editar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Editar</button></a>
+
+             <a href="../controlador/atividade.php?acao=deletar&id=<?= $atividade->getIdAtividade();?>"><button class="btn btn-primary btn-lg">Deleta</button></a></li>
+        </ul>
+
             <?php endforeach;?>
     </div>
 

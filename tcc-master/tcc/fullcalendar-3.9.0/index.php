@@ -79,10 +79,7 @@
         <div id=CadastrarAtividade>
             <a href="../controlador/atividade.php?acao=cadastrar"><button name="Cadastrar" type="submit" class="btn btn-primary btn-lg">Cadastrar Atividade</button></a>
             <br> <br>
-        </div><div id=CadastrarAtividade>
-            <a href="../controlador/atividade.php?acao=deletar"><button name="Deletar" type="submit" class="btn btn-primary btn-lg">Deletar Atividade</button></a>
-            <br> <br>
-        </div>
+
     <div id=CadastrarAtividade>
         <a href="../controlador/atividade.php?acao=listar"><button name="Lista" type="submit" class="btn btn-primary btn-lg">Lista de Atividades</button></a>
         <br> <br>

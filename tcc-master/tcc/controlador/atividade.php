@@ -31,14 +31,10 @@
 
         $crud = new CrudAtividade();
 
-        if (isset($_POST['deleta'])){
-            $atividade = new Atividade($_POST['id_atividade'],null,null);
-            $crud->deletaAtividade($atividade);
+            $crud->deletaAtividade($_GET['id']);
 
             header('Location: ../fullcalendar-3.9.0/index.php');
-        }else{
-            include '../views/deletar.php';
-        }
+
         break;
 
         case 'listar':

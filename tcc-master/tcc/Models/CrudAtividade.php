@@ -55,15 +55,15 @@ class CrudAtividade
         $res = $this->conexao->query($sql);
     }
 
-    public function deletaAtividade(Atividade $atividade){
+    public function deletaAtividade($id){
 
         $this->conexao = BDConection::getConexao();
 
-        $at[] = $atividade->getIdAtividade();
-
-        $sql = "delete from atividade where id_atividade=".$at[0];
+        $sql = "delete from atividade where id_atividade=".$id;
 
         $res = $this->conexao->query($sql);
+
+        return $res;
     }
 
     public function editaAtividade(Atividade $atividade){
